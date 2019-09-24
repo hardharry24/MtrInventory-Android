@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/nav_menu_home"
+            android:icon="@drawable/ic_home_black"
+            android:title="Home" />
+        <item android:id="@+id/nav_menu_new"
+            android:icon="@drawable/ic_playlist_add_black"
+            android:title="New Motor" />
+
+    </group>
+
+    <item android:title="Account Setting">
+        <menu>
+            <item android:id="@+id/nav_sign_out"
+                android:icon="@drawable/ic_sign_out"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>

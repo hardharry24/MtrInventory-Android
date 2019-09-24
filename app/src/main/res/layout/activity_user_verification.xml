@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="activities.UserVerification"
+    android:background="@drawable/back">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtV1"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="50dp"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:text=""
+                android:hint="*"
+                android:background="@drawable/textbox"/>
+
+            <EditText
+                android:id="@+id/txtV2"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="50dp"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:text=""
+                android:hint="*"
+                android:background="@drawable/textbox"/>
+
+            <EditText
+                android:id="@+id/txtV3"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="50dp"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:text=""
+                android:hint="*"
+                android:background="@drawable/textbox"/>
+
+            <EditText
+                android:id="@+id/txtV4"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="50dp"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:text=""
+                android:hint="*"
+                android:background="@drawable/textbox"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnVerify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginStart="50dp"
+            android:text="VERIFY"
+            android:background="@drawable/shape_login"/>
+    </LinearLayout>
+
+
+
+
+</ScrollView>
